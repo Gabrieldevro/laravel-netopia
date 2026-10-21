@@ -1,0 +1,36 @@
+{
+    "name": "gabrieldevro/laravel-netopia",
+    "description": "NETOPIA Payments (API v2) for Laravel: card payments, transaction status and signed IPN verification.",
+    "keywords": ["laravel", "netopia", "mobilpay", "payments", "romania", "ipn", "card"],
+    "license": "MIT",
+    "authors": [
+        { "name": "Gabriel Conolache", "email": "contact@gabrieldev.eu", "homepage": "https://gabrieldev.eu" }
+    ],
+    "require": {
+        "php": "^8.2",
+        "ext-json": "*",
+        "ext-openssl": "*",
+        "illuminate/http": "^11.0|^12.0",
+        "illuminate/support": "^11.0|^12.0",
+        "guzzlehttp/guzzle": "^7.8"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^9.0|^10.0",
+        "phpunit/phpunit": "^11.0|^12.0"
+    },
+    "autoload": {
+        "psr-4": { "Gabrieldev\\Netopia\\": "src/" }
+    },
+    "autoload-dev": {
+        "psr-4": { "Gabrieldev\\Netopia\\Tests\\": "tests/" }
+    },
+    "extra": {
+        "laravel": {
+            "providers": ["Gabrieldev\\Netopia\\NetopiaServiceProvider"],
+            "aliases": { "Netopia": "Gabrieldev\\Netopia\\Facades\\Netopia" }
+        }
+    },
+    "scripts": { "test": "phpunit" },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
