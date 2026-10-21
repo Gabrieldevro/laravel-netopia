@@ -5,7 +5,7 @@
 
 <p align="center">
 <img alt="tests" src="https://github.com/Gabrieldevro/laravel-netopia/actions/workflows/tests.yml/badge.svg">
-<img alt="Laravel" src="https://img.shields.io/badge/Laravel-11%20%7C%2012-FF2D20?style=flat-square&amp;logo=laravel&amp;logoColor=white">
+<img alt="Laravel" src="https://img.shields.io/badge/Laravel-12-FF2D20?style=flat-square&amp;logo=laravel&amp;logoColor=white">
 <img alt="PHP" src="https://img.shields.io/badge/PHP-%E2%89%A58.2-777BB4?style=flat-square&amp;logo=php&amp;logoColor=white">
 <img alt="License" src="https://img.shields.io/badge/license-MIT-blue?style=flat-square">
 </p>
